@@ -6,7 +6,7 @@
     --clr-grayish-blue: hsl(212, 23%, 69%);
     --clr-light-grayish-blue: hsl(210, 46%, 95%);
     --ff: 'Manrope', sans-serif;
-    --transition: 1s ease
+    --transition: all 0.5s linear
 }
 
 body {
