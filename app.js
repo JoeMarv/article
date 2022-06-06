@@ -4,7 +4,7 @@ const hideAll = document.querySelector('.share-btn2')
 showAll.addEventListener('click', function() {
     const main = showAll.parentElement.parentElement
 
-    main.classList.add('show')
+    main.classList.toggle('show')
 })
 
 hideAll.addEventListener('click', function() {

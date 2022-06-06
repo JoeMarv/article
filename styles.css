@@ -146,6 +146,11 @@ h3 {
     border-radius: 50%;
     border: none;
     padding: 0vw;
+    background-color: var(--clr-grayish-blue);
+}
+
+.share-btn2 img {
+    filter: brightness(0) invert(1)
 }
 
 .show .main-footer {
@@ -154,4 +159,11 @@ h3 {
 
 .show .full-footer {
     display: flex
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+         display: flex;
+        flex-direction: row
+    }
 }
